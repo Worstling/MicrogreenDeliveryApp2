@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		862822672B77E71F000DC465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822662B77E71F000DC465 /* AppDelegate.swift */; };
+		862822692B77E71F000DC465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822682B77E71F000DC465 /* SceneDelegate.swift */; };
+		8628226B2B77E71F000DC465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628226A2B77E71F000DC465 /* ViewController.swift */; };
+		862822702B77E723000DC465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8628226F2B77E723000DC465 /* Assets.xcassets */; };
+		862822732B77E723000DC465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862822712B77E723000DC465 /* LaunchScreen.storyboard */; };
+		862822A72B796B3D000DC465 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229A2B796B3D000DC465 /* Roboto-Medium.ttf */; };
+		862822A82B796B3D000DC465 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229B2B796B3D000DC465 /* Roboto-Light.ttf */; };
+		862822A92B796B3D000DC465 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229C2B796B3D000DC465 /* Roboto-Regular.ttf */; };
+		862822AA2B796B3D000DC465 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229D2B796B3D000DC465 /* Roboto-MediumItalic.ttf */; };
+		862822AB2B796B3D000DC465 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229E2B796B3D000DC465 /* Roboto-ThinItalic.ttf */; };
+		862822AC2B796B3D000DC465 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8628229F2B796B3D000DC465 /* Roboto-BoldItalic.ttf */; };
+		862822AD2B796B3D000DC465 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A02B796B3D000DC465 /* Roboto-LightItalic.ttf */; };
+		862822AE2B796B3D000DC465 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A12B796B3D000DC465 /* Roboto-Italic.ttf */; };
+		862822AF2B796B3D000DC465 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 862822A22B796B3D000DC465 /* LICENSE.txt */; };
+		862822B02B796B3D000DC465 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A32B796B3D000DC465 /* Roboto-BlackItalic.ttf */; };
+		862822B12B796B3D000DC465 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A42B796B3D000DC465 /* Roboto-Bold.ttf */; };
+		862822B22B796B3D000DC465 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A52B796B3D000DC465 /* Roboto-Thin.ttf */; };
+		862822B32B796B3D000DC465 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 862822A62B796B3D000DC465 /* Roboto-Black.ttf */; };
+		862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B52B796EE5000DC465 /* UIFont+Extension.swift */; };
+		862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822B72B7AB31D000DC465 /* UIColor+Extension.swift */; };
+		862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822BC2B7E2DCC000DC465 /* Coordinator.swift */; };
+		862822BF2B7E9730000DC465 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822BE2B7E9730000DC465 /* AppCoordinator.swift */; };
+		862822C12B7E995D000DC465 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */; };
+		862822C32B810CF0000DC465 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822C22B810CF0000DC465 /* MenuCoordinator.swift */; };
+		862822C52B810E5E000DC465 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822C42B810E5E000DC465 /* ContactsCoordinator.swift */; };
+		862822C92B81104A000DC465 /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822C82B81104A000DC465 /* CartCoordinator.swift */; };
+		862822CB2B811332000DC465 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822CA2B811332000DC465 /* TabBarController.swift */; };
+		862822D02B812F6F000DC465 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822CF2B812F6F000DC465 /* ProfileCoordinator.swift */; };
+		862822D22B815DDB000DC465 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822D12B815DDB000DC465 /* AppColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		862822632B77E71F000DC465 /* MicrogreenDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrogreenDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		862822662B77E71F000DC465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		862822682B77E71F000DC465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8628226A2B77E71F000DC465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8628226F2B77E723000DC465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		862822722B77E723000DC465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		862822742B77E723000DC465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8628229A2B796B3D000DC465 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		8628229B2B796B3D000DC465 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		8628229C2B796B3D000DC465 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		8628229D2B796B3D000DC465 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8628229E2B796B3D000DC465 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8628229F2B796B3D000DC465 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		862822A02B796B3D000DC465 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		862822A12B796B3D000DC465 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		862822A22B796B3D000DC465 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		862822A32B796B3D000DC465 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		862822A42B796B3D000DC465 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		862822A52B796B3D000DC465 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		862822A62B796B3D000DC465 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		862822B52B796EE5000DC465 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		862822B72B7AB31D000DC465 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		862822BC2B7E2DCC000DC465 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		862822BE2B7E9730000DC465 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		862822C22B810CF0000DC465 /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		862822C42B810E5E000DC465 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		862822C82B81104A000DC465 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
+		862822CA2B811332000DC465 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		862822CF2B812F6F000DC465 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		862822D12B815DDB000DC465 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		862822602B77E71F000DC465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8628225A2B77E71F000DC465 = {
+			isa = PBXGroup;
+			children = (
+				862822652B77E71F000DC465 /* MicrogreenDeliveryApp */,
+				862822642B77E71F000DC465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		862822642B77E71F000DC465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				862822632B77E71F000DC465 /* MicrogreenDeliveryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		862822652B77E71F000DC465 /* MicrogreenDeliveryApp */ = {
+			isa = PBXGroup;
+			children = (
+				862822B92B7E24AA000DC465 /* NavigationLayer */,
+				862822972B796A64000DC465 /* Resources */,
+				862822662B77E71F000DC465 /* AppDelegate.swift */,
+				862822682B77E71F000DC465 /* SceneDelegate.swift */,
+				8628226A2B77E71F000DC465 /* ViewController.swift */,
+				8628226F2B77E723000DC465 /* Assets.xcassets */,
+				862822712B77E723000DC465 /* LaunchScreen.storyboard */,
+				862822742B77E723000DC465 /* Info.plist */,
+			);
+			path = MicrogreenDeliveryApp;
+			sourceTree = "<group>";
+		};
+		862822972B796A64000DC465 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				862822B42B796E63000DC465 /* Extensions */,
+				862822982B796A83000DC465 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		862822982B796A83000DC465 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				862822992B796B3D000DC465 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		862822992B796B3D000DC465 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				862822A62B796B3D000DC465 /* Roboto-Black.ttf */,
+				8628229A2B796B3D000DC465 /* Roboto-Medium.ttf */,
+				8628229B2B796B3D000DC465 /* Roboto-Light.ttf */,
+				8628229C2B796B3D000DC465 /* Roboto-Regular.ttf */,
+				8628229D2B796B3D000DC465 /* Roboto-MediumItalic.ttf */,
+				8628229E2B796B3D000DC465 /* Roboto-ThinItalic.ttf */,
+				8628229F2B796B3D000DC465 /* Roboto-BoldItalic.ttf */,
+				862822A02B796B3D000DC465 /* Roboto-LightItalic.ttf */,
+				862822A12B796B3D000DC465 /* Roboto-Italic.ttf */,
+				862822A22B796B3D000DC465 /* LICENSE.txt */,
+				862822A32B796B3D000DC465 /* Roboto-BlackItalic.ttf */,
+				862822A42B796B3D000DC465 /* Roboto-Bold.ttf */,
+				862822A52B796B3D000DC465 /* Roboto-Thin.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		862822B42B796E63000DC465 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				862822B52B796EE5000DC465 /* UIFont+Extension.swift */,
+				862822B72B7AB31D000DC465 /* UIColor+Extension.swift */,
+				862822D12B815DDB000DC465 /* AppColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		862822B92B7E24AA000DC465 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				862822BA2B7E254A000DC465 /* Coordinators */,
+				862822BB2B7E25C4000DC465 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		862822BA2B7E254A000DC465 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				862822BC2B7E2DCC000DC465 /* Coordinator.swift */,
+				862822BE2B7E9730000DC465 /* AppCoordinator.swift */,
+				862822C02B7E995D000DC465 /* OnboardingCoordinator.swift */,
+				862822C22B810CF0000DC465 /* MenuCoordinator.swift */,
+				862822C42B810E5E000DC465 /* ContactsCoordinator.swift */,
+				862822C82B81104A000DC465 /* CartCoordinator.swift */,
+				862822CF2B812F6F000DC465 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		862822BB2B7E25C4000DC465 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				862822CA2B811332000DC465 /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		862822622B77E71F000DC465 /* MicrogreenDeliveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862822772B77E723000DC465 /* Build configuration list for PBXNativeTarget "MicrogreenDeliveryApp" */;
+			buildPhases = (
+				8628225F2B77E71F000DC465 /* Sources */,
+				862822602B77E71F000DC465 /* Frameworks */,
+				862822612B77E71F000DC465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrogreenDeliveryApp;
+			productName = MicrogreenDeliveryApp;
+			productReference = 862822632B77E71F000DC465 /* MicrogreenDeliveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8628225B2B77E71F000DC465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					862822622B77E71F000DC465 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8628225E2B77E71F000DC465 /* Build configuration list for PBXProject "MicrogreenDeliveryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8628225A2B77E71F000DC465;
+			productRefGroup = 862822642B77E71F000DC465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				862822622B77E71F000DC465 /* MicrogreenDeliveryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		862822612B77E71F000DC465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862822B22B796B3D000DC465 /* Roboto-Thin.ttf in Resources */,
+				862822AF2B796B3D000DC465 /* LICENSE.txt in Resources */,
+				862822B32B796B3D000DC465 /* Roboto-Black.ttf in Resources */,
+				862822B12B796B3D000DC465 /* Roboto-Bold.ttf in Resources */,
+				862822732B77E723000DC465 /* LaunchScreen.storyboard in Resources */,
+				862822702B77E723000DC465 /* Assets.xcassets in Resources */,
+				862822AC2B796B3D000DC465 /* Roboto-BoldItalic.ttf in Resources */,
+				862822A92B796B3D000DC465 /* Roboto-Regular.ttf in Resources */,
+				862822AB2B796B3D000DC465 /* Roboto-ThinItalic.ttf in Resources */,
+				862822AD2B796B3D000DC465 /* Roboto-LightItalic.ttf in Resources */,
+				862822B02B796B3D000DC465 /* Roboto-BlackItalic.ttf in Resources */,
+				862822A82B796B3D000DC465 /* Roboto-Light.ttf in Resources */,
+				862822AE2B796B3D000DC465 /* Roboto-Italic.ttf in Resources */,
+				862822AA2B796B3D000DC465 /* Roboto-MediumItalic.ttf in Resources */,
+				862822A72B796B3D000DC465 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8628225F2B77E71F000DC465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8628226B2B77E71F000DC465 /* ViewController.swift in Sources */,
+				862822672B77E71F000DC465 /* AppDelegate.swift in Sources */,
+				862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */,
+				862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */,
+				862822692B77E71F000DC465 /* SceneDelegate.swift in Sources */,
+				862822C52B810E5E000DC465 /* ContactsCoordinator.swift in Sources */,
+				862822C92B81104A000DC465 /* CartCoordinator.swift in Sources */,
+				862822C12B7E995D000DC465 /* OnboardingCoordinator.swift in Sources */,
+				862822D02B812F6F000DC465 /* ProfileCoordinator.swift in Sources */,
+				862822B82B7AB31D000DC465 /* UIColor+Extension.swift in Sources */,
+				862822CB2B811332000DC465 /* TabBarController.swift in Sources */,
+				862822D22B815DDB000DC465 /* AppColors.swift in Sources */,
+				862822C32B810CF0000DC465 /* MenuCoordinator.swift in Sources */,
+				862822BF2B7E9730000DC465 /* AppCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		862822712B77E723000DC465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862822722B77E723000DC465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		862822752B77E723000DC465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		862822762B77E723000DC465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		862822782B77E723000DC465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicrogreenDeliveryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladRommel.MicrogreenDeliveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		862822792B77E723000DC465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicrogreenDeliveryApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladRommel.MicrogreenDeliveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8628225E2B77E71F000DC465 /* Build configuration list for PBXProject "MicrogreenDeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862822752B77E723000DC465 /* Debug */,
+				862822762B77E723000DC465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862822772B77E723000DC465 /* Build configuration list for PBXNativeTarget "MicrogreenDeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862822782B77E723000DC465 /* Debug */,
+				862822792B77E723000DC465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8628225B2B77E71F000DC465 /* Project object */;
+}
