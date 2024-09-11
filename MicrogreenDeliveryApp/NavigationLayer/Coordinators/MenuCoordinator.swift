@@ -15,6 +15,6 @@ class MenuCoordinator: Coordinator {
         navigationController?.pushViewController(vc, animated: true)
     }
     override func finish() {
-        print("AppCoordinator finish")
+        print("AppCoordinator finish") //some code
     }
 }
