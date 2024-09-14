@@ -36,6 +36,7 @@
 		862822CB2B811332000DC465 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822CA2B811332000DC465 /* TabBarController.swift */; };
 		862822D02B812F6F000DC465 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822CF2B812F6F000DC465 /* ProfileCoordinator.swift */; };
 		862822D22B815DDB000DC465 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862822D12B815DDB000DC465 /* AppColors.swift */; };
+		86A9C9772C923A3500BBA420 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9C9762C923A3500BBA420 /* SceneFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		862822CA2B811332000DC465 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		862822CF2B812F6F000DC465 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		862822D12B815DDB000DC465 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		86A9C9762C923A3500BBA420 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		862822652B77E71F000DC465 /* MicrogreenDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				86A9C9742C9239C500BBA420 /* UILayer */,
 				862822B92B7E24AA000DC465 /* NavigationLayer */,
 				862822972B796A64000DC465 /* Resources */,
 				862822662B77E71F000DC465 /* AppDelegate.swift */,
@@ -192,6 +195,22 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		86A9C9742C9239C500BBA420 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				86A9C9752C9239E700BBA420 /* SceneFactory */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		86A9C9752C9239E700BBA420 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				86A9C9762C923A3500BBA420 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8628226B2B77E71F000DC465 /* ViewController.swift in Sources */,
+				86A9C9772C923A3500BBA420 /* SceneFactory.swift in Sources */,
 				862822672B77E71F000DC465 /* AppDelegate.swift in Sources */,
 				862822BD2B7E2DCC000DC465 /* Coordinator.swift in Sources */,
 				862822B62B796EE5000DC465 /* UIFont+Extension.swift in Sources */,

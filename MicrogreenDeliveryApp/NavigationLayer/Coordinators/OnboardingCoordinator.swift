@@ -7,8 +7,14 @@
 
 import UIKit
 
+// MARK: - OnboardingCoordinator
 class OnboardingCoordinator: Coordinator {
     
+    
+    // MARK: - Properties
+    private let factory = SceneFactory.self
+    
+    // MARK: - Methods
     override func start() {
        let vc = ViewController()
         navigationController?.pushViewController(vc, animated: true)
